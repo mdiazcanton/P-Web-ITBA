@@ -1,1 +1,13 @@
-h1{color: red;}
+h1{color: black;
+text-align: center;}
+/*
+*
+*
+*{background-image:url(url);}
+{background-color: black;}
+*/
+
+body{background-image:url(./Imagenes-PWeb/rick_astley.jpg);}
+
+*{color: black;}
+

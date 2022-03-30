@@ -1,5 +1,9 @@
-h1{color: black;
-text-align: center;}
+#titulo-principal{color: orange;
+text-align: center;
+border: double red;
+width: 250px;
+
+}
 /*
 *
 *
@@ -7,7 +11,14 @@ text-align: center;}
 {background-color: black;}
 */
 
-body{background-image:url(./Imagenes-PWeb/rick_astley.jpg);}
+/*body{background-image:url(./Imagenes-PWeb/rick_astley.jpg);}*/
 
-*{color: black;}
+*{color: white;}
+
+.container{background-color: black;}
+
+*body{background-color: blueviolet;}
+
+
+
 

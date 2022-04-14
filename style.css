@@ -1,37 +1,43 @@
-#titulo-principal{color: orange;
-text-align: center;
-border: double red;
-width: 250px;
-
+#navbar{
+    background-color: black;
 }
-/*
-*
-*
-*{background-image:url(url);}
-{background-color: black;}
+
+#logo-mt{
+    width: 4%;
+margin-right: 20px;
+}
+
+#div-principal{
+    background-image: url(./Imagenes/fondo-negro.jpg);
+    background-repeat: no-repeat;
+    background-size: 130%;
+    
+}
+
+
+/*#buakaw-hidden1 {
+    visibility: hidden;
+    
+} */
+
+
+.carousel-inner {
+
+    height: 100%;
+    padding-bottom: 0px;
+    
+    
+}
+
+/* .carousel-inner img{
+    max-height: 700px;
+} /*
+
+
+/* #div-secundario {
+    background-image: url(./Imagenes/orange-black-background.jpg);
+    background-repeat: no-repeat;
+    background-size: 70%;
+}
 */
 
-/*body{background-image:url(./Imagenes-PWeb/rick_astley.jpg);}*/
-
-*{color: white;}
-
-
-.container-fluid{background-color: bisque;
-}
-
-
-#container-id{background-color: black;}
-
-
-
-
-
-#logo-header{
-    width: 10%;
-    margin-right: 20px;
-}
-
-
-#row1{background-color: blueviolet;
-    margin: 0px;
-}

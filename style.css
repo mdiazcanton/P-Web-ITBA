@@ -45,4 +45,15 @@ var(--bs-cyan);
     
 }
 
+.zoom:hover {
+    transform: scale(1.03)
+}
 
+.zoom {
+    transition: all 0.2s ease;
+    cursor: pointer;
+}
+
+#wpp-icon:hover{
+    transform: scale(1.03);
+}

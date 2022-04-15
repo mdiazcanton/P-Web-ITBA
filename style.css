@@ -35,9 +35,10 @@ margin-right: 20px;
 
 
  #div-secundario {
-    background-image: url(./Imagenes/orange-black-background.jpg);
-    background-repeat: no-repeat;
-    background-size: 70%;
+    background-color: var(--bs-cyan);
+    
+    
+    
 }
 
 

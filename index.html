@@ -210,37 +210,37 @@ crossorigin="anonymous">
 
 
 <footer class="bg-dark text-center text-white">
-  <!-- Grid container -->
+  
   <div class="container p-4">
     
     <section class="mb-4">
       
-      <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"
+      <a class="btn btn-outline-light m-1" href="#!" role="button"
         ><i class="fab fa-facebook-f"></i
       ></a>
 
       
-      <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"
+      <a class="btn btn-outline-light m-1" href="#!" role="button"
         ><i class="fab fa-twitter"></i
       ></a>
 
       
-      <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"
+      <a class="btn btn-outline-light m-1" href="#!" role="button"
         ><i class="fab fa-google"></i
       ></a>
 
       
-      <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"
+      <a class="btn btn-outline-light  m-1" href="#!" role="button"
         ><i class="fab fa-instagram"></i
       ></a>
 
       
-      <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"
+      <a class="btn btn-outline-light m-1" href="#!" role="button"
         ><i class="fab fa-linkedin-in"></i
       ></a>
 
       
-      <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"
+      <a class="btn btn-outline-light m-1" href="#!" role="button"
         ><i class="fab fa-github"></i
       ></a>
     </section>
@@ -249,24 +249,41 @@ crossorigin="anonymous">
     <div class="col-xs-auto mb-1">___________________________________</div>
 
     
-    <section class="">
-      <form action="">
+    <section>
+      <form>
         
         <div class="row d-flex justify-content-center">
           
           <div class="col-auto">
             <p class="pt-2">
-              <strong>Si querés recibir noticias sobre peleas importantes, suscribite!</strong>
+              <strong>Si querés recibir noticias sobre temas relacionados, suscribite!</strong>
             </p>
           </div>
           </div>
           
           
           
+          <section class="row d-flex justify-content-center">
+            <div class="col-md-5 col-12">
+              <div class="d-flex justify-content-start">
+                Ingrese su nombre:
+              </div>
+              <div class="input-group mb-4">
+                <span class="input-group-text">
+                  <i class="fa-solid fa-file-signature"></i>
+                </span>
+                <input type="text" id="nombreUsuario" class="form-control" placeholder="e.g. Matías">
+              </div>
+            </div>
+
+           
+
+           
+
+          </section>
           
           
-          
-          <div class="row d-flex justify-content-center">
+          <section class="row d-flex justify-content-center">
 
 
           
@@ -274,22 +291,57 @@ crossorigin="anonymous">
 
           <div class="col-md-5 col-12">
             
-            
-            <div class="form-outline form-white mb-4">
-              <input type="email" id="emailUsuario" class="form-control" placeholder="Email">
+            <div class="d-flex justify-content-start mt-1">
+              Ingrese su email:
+            </div>
+            <!-- <div class="form-outline form-white mb-4"> no consigo que funcionen algunos form -->
+            <div class="input-group mb-4">
+              <span class="input-group-text">
+                <i class="fa-solid fa-user"></i>
+              </span>
+              <input type="email" id="emailUsuario" class="form-control" placeholder="e.g. pepito@ejemplo.com">
           
             </div>
           </div>
        
+       
+         
           
 
-         
-          <div class="col-auto">
-           
-            <button type="submit" class="btn btn-outline-light mb-4">
-              Aceptar
-            </button>
+        </section>
+
+        <section class="row d-flex justify-content-center">
+          <div class="col-md-5 col-12">
+            <div class="d-flex justify-content-start mt-1">
+              Cuál es su tema de mayor interés:
+            </div>
+            <div class="input-group mb-4">
+              <span class="input-group-text">
+                <i class="fa-solid fa-question"></i>
+              </span>
+              <select type="" id="temasInteres" class="form-control">
+                <option value="peleas-en-vivo" active>Peleas en vivo</option>
+                <option value="ofertas-de-equipo">Rebajas de indumentaria</option>
+                <option value="mas-info">Artículos de información</option>
+
+              </select>
+
+
+
+            </div>
           </div>
+
+          
+
+          </section>
+          
+          <section class="row d-flex justify-content-center">
+            <div class="col-auto">
+              <button type="submit" class="btn btn-outline-light mb-4">
+                Aceptar
+              </button>
+            </div>
+
         </div>
         
         

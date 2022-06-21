@@ -15,12 +15,7 @@ const countdown = () => {
   const textoHora = Math.floor((diferencia % dias) / horas);
   const textoMinuto = Math.floor((diferencia % horas) / minutos);
   const textoSegundo = Math.floor((diferencia % minutos) / segundos);
-  console.log(diferencia % dias);
-  console.log(diferencia / dias);
-  console.log(textoDia);
-  console.log(textoHora);
-  console.log(textoMinuto);
-  console.log(textoSegundo);
+  
 
   document.querySelector(".dia").innerText = textoDia;
   document.querySelector(".hora").innerText = textoHora;
